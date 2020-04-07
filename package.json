@@ -1,0 +1,14 @@
+{
+  "name": "connectdatabase",
+  "version": "1.0.0",
+  "description": "Connecting to stevemarcel database",
+  "main": "stevemarcel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stephen Onyejuluwa",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.5.5"
+  }
+}
