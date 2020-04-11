@@ -1,6 +1,7 @@
-let mongo = require ('mongodb');
-let MongoClient = require ('mongodb').MongoClient;
-let url = "mongodb://localhost:27017/mydb";
+const mongo = require ('mongodb');
+const MongoClient = require ('mongodb').MongoClient;
+const url = "mongodb://localhost:27017";
+const dbName = "stevemarcel";
 
 MongoClient.connect(url, {useUnifiedTopology: true},(err, db) =>{
   if (err) throw err;
