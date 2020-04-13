@@ -1,3 +1,5 @@
+#Run 'npm install' before running server.
+
 # SCREENSHOTS
 
 # Screenshot for mongo and mongod exe files
